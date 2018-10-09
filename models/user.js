@@ -13,6 +13,11 @@ const userSchema = new Schema({
     matchesWon: { type: Number, default: "" },
     matchesLost: { type: Number, default: "" },
     profilePic: { type: String, default: "" },
+    type: {
+        type: String,
+        enum: ["fighter", "referee"],
+        default: "fighter"
+    },
     date: { type: Date, default: Date.now }
 });
 

@@ -18,6 +18,8 @@ const userSchema = new Schema({
         enum: ["fighter", "referee"],
         default: "fighter"
     },
+    lat: { type: Number },
+    lng: { type: Number },
     date: { type: Date, default: Date.now }
 });
 

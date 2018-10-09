@@ -50,6 +50,7 @@ class MapSolo extends Component {
             this.handleGetLocationError,
             this.getLocationOptions
         );
+        window.initMap = this.initMap;
         this.loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyC2WljOFv9ujHKJWIgMsrE4Wj3bZA5nBZk&callback=initMap")
         this.getVenues()
     }
@@ -64,7 +65,8 @@ class MapSolo extends Component {
         script.src = url
         script.async = true
         script.defer = true
-        index.parentNode.insertBefore(script, index)
+        // index.parentNode.insertBefore(script, index)
+        index.parentNode.appendChild(script);
     }
 
     getVenues = () => {
@@ -92,6 +94,7 @@ class MapSolo extends Component {
     };
 
     initMap = () => {
+        console.log(this.state.userCurrLatLng)
         var map = new window.google.maps.Map(document.getElementById('map'), {
             center: { lat: this.state.userCurrLatLng.lat, lng: this.state.userCurrLatLng.lng },
             zoom: 14

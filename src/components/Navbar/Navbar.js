@@ -13,11 +13,11 @@ const Navbar = props => (
         <li className="nav-item">
           <Link
 
-            to="/"
+            to="/home"
             className={
               window.location.pathname === "/" || window.location.pathname === "/about"
                 ? "nav-link active"
-                : "nav-link"
+                : "nav-link text-white"
             }
           >
             Home
@@ -29,7 +29,7 @@ const Navbar = props => (
             className={
               window.location.pathname === "/discover"
                 ? "nav-link active"
-                : "nav-link"
+                : "nav-link text-white"
             }
           >
             Matches
@@ -41,7 +41,7 @@ const Navbar = props => (
             className={
               window.location.pathname === "/search"
                 ? "nav-link active"
-                : "nav-link"
+                : "nav-link text-white"
             }
           >
             Ref

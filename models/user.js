@@ -10,8 +10,8 @@ const userSchema = new Schema({
         type: String,
         enum: ["male", "female"]
     },
-    matchesWon: { type: Number, default: "" },
-    matchesLost: { type: Number, default: "" },
+    matchesWon: { type: Number, default: 0 },
+    matchesLost: { type: Number, default: 0 },
     profilePic: { type: String, default: "" },
     type: {
         type: String,

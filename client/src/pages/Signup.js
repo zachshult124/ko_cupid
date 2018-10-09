@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import axios from "axios"
 
 
 class Si extends Component {
@@ -38,6 +39,12 @@ class Si extends Component {
         });
     };
 
+    handleButtonClick = event => {
+        event.preventDefault();
+
+
+
+    };
     render() {
         // Notice how each input has a `value`, `name`, and `onChange` prop
         return (
@@ -80,9 +87,9 @@ class Si extends Component {
                                     <option value="female">Female</option>
                                 </select>
                                 <div>
-                                    <Link to="/home">
-                                        <button >Create an Account</button>
-                                    </Link>
+
+                                    <button type="submit" onClick={this.handleButtonClick}>Create an Account</button>
+
                                 </div>
                                 <Link to="/">Log in if you have an account</Link>
                             </form>

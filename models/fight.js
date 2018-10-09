@@ -7,7 +7,9 @@ const fightSchema = new Schema({
     ref: { type: Schema.Types.ObjectId, ref: 'User' },
     time: { type: Date, default: Date.now },
     completed: { type: Boolean, default: false },
-    winner: { type: Schema.Types.ObjectId, ref: 'User' }
+    winner: { type: Schema.Types.ObjectId, ref: 'User' },
+    lat: { type: Number },
+    lng: { type: Number }
 })
 
 const Fight = mongoose.model("Fight", fightSchema);

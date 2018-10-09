@@ -19,6 +19,9 @@ const userSeed = [
     matchesWon: 5,
     matchesLost: 18,
     profilePic: "",
+    type: "fighter",
+    lat: 41.9272207,
+    lng: -87.70233584,
     date: new Date(Date.now())
   },
   {
@@ -31,6 +34,9 @@ const userSeed = [
     matchesWon: 7,
     matchesLost: 2,
     profilePic: "",
+    type: "fighter",
+    lat: 41.92875326,
+    lng: -87.68448305,
     date: new Date(Date.now())
   },
   {
@@ -43,6 +49,9 @@ const userSeed = [
     matchesWon: 87,
     matchesLost: 2,
     profilePic: "",
+    type: "fighter",
+    lat: 41.92798698,
+    lng: -87.66663027,
     date: new Date(Date.now())
   },
   {
@@ -55,6 +64,9 @@ const userSeed = [
     matchesWon: 34,
     matchesLost: 21,
     profilePic: "",
+    type: "fighter",
+    lat: 41.93794786,
+    lng: -87.68654299,
     date: new Date(Date.now())
   },
   {
@@ -67,6 +79,9 @@ const userSeed = [
     matchesWon: 1,
     matchesLost: 3,
     profilePic: "",
+    type: "referee",
+    lat: 41.94688579,
+    lng: -87.70988894,
     date: new Date(Date.now())
   },
   {
@@ -79,6 +94,9 @@ const userSeed = [
     matchesWon: 115,
     matchesLost: 7,
     profilePic: "",
+    type: "referee",
+    lat: 41.94994993,
+    lng: -87.69340944,
     date: new Date(Date.now())
   },
   {
@@ -91,6 +109,9 @@ const userSeed = [
     matchesWon: 666,
     matchesLost: 222,
     profilePic: "",
+    type: "fighter",
+    lat: 41.90729404,
+    lng: -87.64431429,
     date: new Date(Date.now())
   },
   {
@@ -103,6 +124,9 @@ const userSeed = [
     matchesWon: 21,
     matchesLost: 18,
     profilePic: "",
+    type: "fighter",
+    lat: 41.90627199,
+    lng: -87.67143679,
     date: new Date(Date.now())
   },
   {
@@ -115,6 +139,9 @@ const userSeed = [
     matchesWon: 13,
     matchesLost: 2,
     profilePic: "",
+    type: "fighter",
+    lat: 41.90857157,
+    lng: -87.65598726,
     date: new Date(Date.now())
   },
   {
@@ -127,6 +154,9 @@ const userSeed = [
     matchesWon: 4,
     matchesLost: 1,
     profilePic: "",
+    type: "fighter",
+    lat: 41.9065275,
+    lng: -87.6384778,
     date: new Date(Date.now())
   },
   {
@@ -139,6 +169,9 @@ const userSeed = [
     matchesWon: 12,
     matchesLost: 5,
     profilePic: "",
+    type: "fighter",
+    lat: 41.90703853,
+    lng: -87.66731691,
     date: new Date(Date.now())
   },
   {
@@ -151,6 +184,9 @@ const userSeed = [
     matchesWon: 16,
     matchesLost: 20,
     profilePic: "",
+    type: "fighter",
+    lat: 41.89835056,
+    lng: -87.62989473,
     date: new Date(Date.now())
   },
   {
@@ -163,6 +199,9 @@ const userSeed = [
     matchesWon: 35,
     matchesLost: 5,
     profilePic: "",
+    type: "fighter",
+    lat: 41.89783947,
+    lng: -87.66937685,
     date: new Date(Date.now())
   },
   {
@@ -175,6 +214,9 @@ const userSeed = [
     matchesWon: 21,
     matchesLost: 9,
     profilePic: "",
+    type: "fighter",
+    lat: 41.89272831,
+    lng: -87.61925173,
     date: new Date(Date.now())
   },
   {
@@ -187,6 +229,9 @@ const userSeed = [
     matchesWon: 18,
     matchesLost: 12,
     profilePic: "",
+    type: "fighter",
+    lat: 41.88020424,
+    lng: -87.64568758,
     date: new Date(Date.now())
   },
   {
@@ -199,6 +244,9 @@ const userSeed = [
     matchesWon: 11,
     matchesLost: 20,
     profilePic: "",
+    type: "fighter",
+    lat: 41.89170603,
+    lng: -87.61478853,
     date: new Date(Date.now())
   }
 ];

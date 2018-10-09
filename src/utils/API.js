@@ -13,6 +13,6 @@ export default {
     return axios.get("https://dog.ceo/api/breeds/list");
   },
   getFighterLocations: function () {
-    return axios.get("https://ballup-turned-hoopsgram-api.herokuapp.com/api/courts/latLng/41.8964/-87.6187")
+    return axios.get("https://ballup-turned-hoopsgram-api.herokuapp.com/api/courts/latLng/:lat/:lng")
   }
 };

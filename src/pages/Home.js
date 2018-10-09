@@ -1,5 +1,5 @@
 import React from "react";
-import Map from "../components/Map";
+import MapSolo from "../components/MapSolo";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
@@ -8,7 +8,7 @@ import Carousel from "../components/Carousel";
 
 const Home = () => (
   <div>
-    <Map />
+    <MapSolo />
     <Container>
       <Row>
         <Col size="md-12">
